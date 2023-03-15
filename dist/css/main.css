@@ -27,14 +27,9 @@ nav.sticky {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.bi .hover {
-  background: #eee;
-  border: 1px solid transparent;
-}
 
-a.hover :hover {
-  color: rgba(0, 0, 0, 0.212);
-  border: 1px solid transparent;
+svg:hover {
+  fill: lightblue;
 }
 
 .background {
@@ -44,7 +39,7 @@ a.hover :hover {
   position: relative;
   color: white;
   font-size: 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/wallhaven-5wpmz7.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/scenic-background.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,9 +73,7 @@ a.hover :hover {
 }
 
 .navbar {
-  /*--bs-navbar-color: white !important; */
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-  /* border-color: lime; */
 }
 
 .hero-text {
@@ -141,7 +134,7 @@ a.hover :hover {
     justify-content: space-around;
     color: white;
     font-size: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/wallhaven-5wpmz7.jpg") !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/scenic-background.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -169,10 +162,3 @@ a.hover :hover {
     margin-top: 150px;
   }
 }
-#skills {
-  color: #fff;
-  background-image: linear-gradient(135deg, #02aab0, #00cdac);
-  padding: 140px 0;
-  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-}/*# sourceMappingURL=main.css.map */

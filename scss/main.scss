@@ -38,16 +38,6 @@ a.hover :hover {
 }
 
 .background {
-  // margin: auto !important;
-  // background-image: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.212)),
-  //   url("../../src/images/wallhaven-5wpmz7.jpg")
-  //     /*url('https://loremflickr.com/320/240')*/ !important;
-  // height: 100vh !important;
-  // color: white !important;
-  // font-size: 40px !important;
-  // background-position: center;
-  // // background-repeat: no-repeat !important;
-  // background-size: cover !important;
 
   margin: auto;
   width: 100%;
@@ -55,7 +45,7 @@ a.hover :hover {
   position: relative;
   color: white;
   font-size: 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/wallhaven-5wpmz7.jpg") /*url('https://loremflickr.com/320/240')*/ !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/wallhaven-5wpmz7.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 

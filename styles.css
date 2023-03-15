@@ -58,9 +58,7 @@ nav.sticky {
 }
 
 .navbar {
-  /*--bs-navbar-color: white !important; */
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-  /* border-color: lime; */
 }
 
 .btn-aboutme {
@@ -90,6 +88,7 @@ nav.sticky {
   max-width: 42em;
 }
 
+
 @media (max-height: 702px) {
   .background {
     margin: auto;
@@ -103,11 +102,4 @@ nav.sticky {
     font-size: 40px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.212)), url("./src/images/wallhaven-5wpmz7.jpg") !important;
   }
-}
-#skills {
-  color: #fff;
-  background-image: linear-gradient(135deg, #02aab0, #00cdac);
-  padding: 140px 0;
-  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }/*# sourceMappingURL=main.css.map */

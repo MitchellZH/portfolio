@@ -164,13 +164,6 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script src="ProjectCard.js"></script>
     <script type="text/javascript">
-      // window.addEventListener("scroll", function(){
-      //   var header = document.querySelector("nav");
-      //   header.classList.toggle("sticky", window.scrollY > 0);
-      // })
-
-      // var parallax = document.getElementsByClassName("background")[0];
-        
       $(window).on("scroll", function() {
         if($(window).scrollTop()) {
           $('nav').addClass('sticky');
@@ -185,11 +178,6 @@
         $('.background').css('background-position', 'center ' + (wScroll * 0.7) + 'px')
           
       });
-
-      // $( "section:first" ).on( "scroll", function() {
-      //   let wScroll = $(window).scrollTop();
-      //   $( this ).css( 'background-position', 'center ' + (wScroll * 0.7) + 'px' );
-      // });
     </script>
     
     

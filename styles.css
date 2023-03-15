@@ -1,0 +1,113 @@
+nav {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  transition: 0.6s !important;
+  padding: 20px 80px !important;
+  z-index: 100000 !important;
+}
+
+footer {
+  color: white;
+  background-color: rgba(20, 28, 39, 0.8);
+  justify-content: center !important;
+  align-items: center !important;
+  display: block;
+}
+
+nav.sticky {
+  padding: 5px !important;
+  background-color: rgba(44, 62, 85, 0.8);
+}
+
+.background {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: white;
+  font-size: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.212)), url("./src/images/wallhaven-5wpmz7.jpg") !important;
+}
+
+.navbar-dark {
+  --bs-navbar-color: white !important;
+  --bs-navbar-hover-color: #ffc007 !important;
+}
+
+.hero {
+  background-color: #1c1d25 !important;
+  height: 100vh;
+  color: white !important;
+  font-size: 40px;
+}
+
+.navbar-nav {
+  font-size: large;
+}
+
+.intro {
+  height: 90vh;
+  vertical-align: middle !important;
+}
+
+.navbar {
+  /*--bs-navbar-color: white !important; */
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  /* border-color: lime; */
+}
+
+.btn-aboutme {
+  border-radius: 30px !important;
+  width: 200px;
+  font-size: 30px !important;
+  background-color: rgb(254, 192, 8) !important;
+}
+
+.logo {
+  height: 60px;
+}
+
+.card {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.copyright {
+  font-size: x-small;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+@media (max-height: 702px) {
+  .background {
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    font-size: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.212)), url("./src/images/wallhaven-5wpmz7.jpg") !important;
+  }
+}
+#skills {
+  color: #fff;
+  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  padding: 140px 0;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}/*# sourceMappingURL=main.css.map */

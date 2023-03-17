@@ -39,7 +39,7 @@ svg:hover {
   position: relative;
   color: white;
   font-size: 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/scenic-background.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/hero-BG.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }

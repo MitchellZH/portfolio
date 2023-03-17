@@ -11,10 +11,15 @@ class ProjectCard extends React.Component {
     return (
       <div className="card">
         <img src={this.props.image} width="100%" height="270" />
-
+        <h2 className="card-title m-0 p-3">{this.props.title}</h2>
         <div className="card-img-overlay">
-          <h5 className="card-title">{this.props.title}</h5>
+          <h5>
+            Technologies:
+          </h5>
           <p className="card-text">{this.props.technologies}</p>
+          <h5>
+            Description:
+          </h5>
           <p className="card-text">{this.props.description}</p>
         </div>
       </div>

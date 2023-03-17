@@ -93,6 +93,7 @@ svg:hover {
 }
 
 .card-title {
+  background-color: #1c1d25;
   color: #eee;
 }
 
@@ -102,7 +103,7 @@ svg:hover {
 }
 
 .card:hover {
-  color: rgb(254, 192, 8);
+  color: #eee;
   transform: translateY(-10px);
 }
 
@@ -159,6 +160,11 @@ svg:hover {
     height: 950px !important;
   }
   .contact-height {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
+@media (max-width: 575px) { 
+  .smpadding {
+    padding-left: 32px !important;
+  }
+ }

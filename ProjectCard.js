@@ -27,17 +27,27 @@ var ProjectCard = function (_React$Component) {
         { className: "card" },
         React.createElement("img", { src: this.props.image, width: "100%", height: "270" }),
         React.createElement(
+          "h2",
+          { className: "card-title m-0 p-3" },
+          this.props.title
+        ),
+        React.createElement(
           "div",
           { className: "card-img-overlay" },
           React.createElement(
             "h5",
-            { className: "card-title" },
-            this.props.title
+            null,
+            "Technologies:"
           ),
           React.createElement(
             "p",
             { className: "card-text" },
             this.props.technologies
+          ),
+          React.createElement(
+            "h5",
+            null,
+            "Description:"
           ),
           React.createElement(
             "p",

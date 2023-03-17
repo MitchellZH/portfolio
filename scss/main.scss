@@ -45,7 +45,7 @@ a.hover :hover {
   position: relative;
   color: white;
   font-size: 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/wallhaven-5wpmz7.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/hero-BG.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -86,7 +86,6 @@ a.hover :hover {
 .hero-text {
   font-size: 30px;
   margin-top: 200px !important;
-  // margin-left: 5rem;
 }
 
 .btn-aboutme {
@@ -131,16 +130,6 @@ a.hover :hover {
 }
 
 @media (max-height: 702px) {
-  // .background {
-  //   background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.212)),
-  //     url("../../src/images/wallhaven-5wpmz7.jpg") !important;
-  //   height: 800px !important;
-  //   color: white !important;
-  //   font-size: 40px !important;
-  //   background-position: center !important;
-  //   background-repeat: no-repeat !important;
-  //   background-size: cover !important;
-  // }
 
   .background {
     margin: auto;
@@ -153,7 +142,7 @@ a.hover :hover {
     justify-content: space-around;
     color: white;
     font-size: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/wallhaven-5wpmz7.jpg") /*url('https://loremflickr.com/320/240')*/ !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/hero-BG.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
   }

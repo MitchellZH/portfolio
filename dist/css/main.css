@@ -27,7 +27,6 @@ nav.sticky {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
 svg:hover {
   fill: lightblue;
 }
@@ -135,7 +134,7 @@ svg:hover {
     justify-content: space-around;
     color: white;
     font-size: 40px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/scenic-background.jpg") !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.312)), url("../../src/images/hero-BG.jpg") !important;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -160,11 +159,11 @@ svg:hover {
     height: 950px !important;
   }
   .contact-height {
-    margin-top: 200px;
+    margin-top: 320px;
   }
 }
-@media (max-width: 575px) { 
+@media (max-width: 480px) {
   .smpadding {
-    padding-left: 32px !important;
+    padding-right: 45px;
   }
- }
+}/*# sourceMappingURL=main.css.map */

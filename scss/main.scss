@@ -27,14 +27,8 @@ nav.sticky {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.bi .hover {
-  background: #eee;
-  border: 1px solid transparent;
-}
-
-a.hover :hover {
-  color: rgba(0, 0, 0, 0.212);
-  border: 1px solid transparent;
+svg:hover {
+  fill: lightblue;
 }
 
 .background {
@@ -100,6 +94,7 @@ a.hover :hover {
 }
 
 .card-title {
+  background-color: #1c1d25;
   color: #eee;
 }
 
@@ -109,7 +104,7 @@ a.hover :hover {
 }
 
 .card:hover {
-  color: rgb(254, 192, 8);
+  color: #eee;
   transform: translateY(-10px);
 }
 
@@ -176,15 +171,13 @@ a.hover :hover {
   }
 
   .contact-height {
-    margin-top: 150px;
+    margin-top: 320px;
   }
 }
 
-#skills {
-    color: #fff;
-    background-image: linear-gradient(135deg,#02aab0,#00cdac);
-    padding: 140px 0;
-    -webkit-clip-path: polygon(0 20%,100% 0,100% 80%,0 100%);
-    clip-path: polygon(0 20%,100% 0,100% 80%,0 100%);
+@media (max-width: 480px) {
+  .smpadding {
+    padding-right: 45px;
+  }
 }
 
